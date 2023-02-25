@@ -44,4 +44,4 @@ io.on("connection", socket => {
     });
 });
 
-server.listen(80, () => console.log("Server started on :80"));
+server.listen(8080, () => console.log("Server started on :8080"));
